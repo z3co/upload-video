@@ -1,9 +1,0 @@
-services:
-  app:
-    build: .
-    container_name: upload-video-main
-    command: python src/index.py
-    ports:
-      - 5678:5678
-    volumes:
-      - .:/code

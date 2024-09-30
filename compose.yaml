@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    container_name: uploadvideo-container
+    volumes:
+      - ./src/:/code/src/
+    env_file:
+      - .env
